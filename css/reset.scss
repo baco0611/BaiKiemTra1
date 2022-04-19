@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+input, textarea, section, button{
+    outline: none;
+}
+
+input{
+    line-height: normal;
+}
+
+label, button{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.75;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+body{
+    line-height: 1;
+    color: white;
+    font-family: $primary-font;
+    min-height: 1350px;
+    background-image: url(../images/bg-top.jpg), url(../images/bg-bottom.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size:auto;
+    background-position: top center, bottom center;
+}
+
+.wraper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.wraper-small{
+    max-width: 915px;
+    margin: 0 auto;
+}

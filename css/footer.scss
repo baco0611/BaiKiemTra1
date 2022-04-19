@@ -1,0 +1,39 @@
+.footer{
+    background-color: #DCE085;
+    padding: 20px;
+    &-main{
+        & h1{
+            width: 100%;
+            color: #196530;
+            text-align: center;
+            font-size: 24px;
+            line-height: 1.3;
+        }
+    }
+    &-infor{
+        margin-top: 40px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: calc((100% - 40px)/2) calc((100% - 40px)/2);
+        column-gap: 40px;
+        row-gap: 15px;
+        & input{
+            width: 100%;
+            height: 35px;
+            padding: 10px;
+            border: 1px solid #CCCCCC;
+            &::placeholder{
+                color: black;
+            }
+        }
+        & a{
+            display: block;
+            width: 100%;
+            text-align: center;
+            color: white;
+            line-height: 35px;
+            font-size: 14px;
+            background-color: #2A6E01;
+        }
+    }
+}

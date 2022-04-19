@@ -1,0 +1,261 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+input, textarea, section, button {
+  outline: none;
+}
+
+input {
+  line-height: normal;
+}
+
+label, button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  line-height: 1;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 1350px;
+  background-image: url(../images/bg-top.jpg), url(../images/bg-bottom.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: auto;
+  background-position: top center, bottom center;
+}
+
+.wraper {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.wraper-small {
+  max-width: 915px;
+  margin: 0 auto;
+}
+
+.top {
+  height: 765px;
+  background-image: url(../images/head-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.top-header {
+  height: 188px;
+  padding: 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px white solid;
+}
+.top-logo {
+  height: 175px;
+}
+.top-hotline {
+  height: 75px;
+  width: 445px;
+  background-color: #49A333;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.top-hotline h1 {
+  width: 100%;
+}
+.top-regis {
+  display: flex;
+  align-items: center;
+  height: 577px;
+}
+.top-register {
+  width: 365px;
+  height: 455px;
+  background-color: #678B37;
+  border: 10px solid #CED086;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top-register h3 {
+  width: 100%;
+  margin-top: 10px;
+  font-weight: 500;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.top-register p {
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.2;
+}
+.top-register-main {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.top-register-main input {
+  height: 30px;
+  width: 100%;
+  background: none;
+  border: none;
+  border-top: 1.5px #5F8133 solid;
+  border-bottom: 1.5px #95AE73 solid;
+  color: white;
+}
+.top-register-main input::placeholder {
+  color: white;
+}
+.top-register-btn {
+  width: 160px;
+  height: 55px;
+  background-color: #C5D301;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.top-register-btn a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.top-register-btn:hover {
+  opacity: 0.75;
+}
+
+.information {
+  padding: 20px;
+}
+.information-main {
+  display: grid;
+  grid-template-columns: calc((100% - 35px) / 2) calc((100% - 35px) / 2);
+  column-gap: 35px;
+  row-gap: 45px;
+}
+.information-main-div {
+  width: 100%;
+}
+.information-main-div h3 {
+  width: 100%;
+  color: #2D8C15;
+  text-align: center;
+  font-size: 18px;
+}
+.information-main-div p {
+  margin-top: 25px;
+  color: black;
+  width: 100%;
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.information-main img {
+  width: 100%;
+  border-radius: 15px;
+  border: 3px dashed #0DC212;
+}
+
+.connect {
+  padding: 30px;
+  background-color: #81AF53;
+}
+.connect-main {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+}
+.connect-content {
+  width: 630px;
+}
+.connect-content h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 40px;
+  border-bottom: #F4E3E3 2px solid;
+}
+.connect-content p {
+  margin-top: 25px;
+  width: 100%;
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 500;
+  line-height: 1.3;
+}
+.connect-img {
+  width: 290px;
+}
+.connect-img img {
+  width: 100%;
+}
+
+.footer {
+  background-color: #DCE085;
+  padding: 20px;
+}
+.footer-main h1 {
+  width: 100%;
+  color: #196530;
+  text-align: center;
+  font-size: 24px;
+  line-height: 1.3;
+}
+.footer-infor {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: calc((100% - 40px) / 2) calc((100% - 40px) / 2);
+  column-gap: 40px;
+  row-gap: 15px;
+}
+.footer-infor input {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border: 1px solid #CCCCCC;
+}
+.footer-infor input::placeholder {
+  color: black;
+}
+.footer-infor a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 35px;
+  font-size: 14px;
+  background-color: #2A6E01;
+}
+
+/*# sourceMappingURL=site.css.map */

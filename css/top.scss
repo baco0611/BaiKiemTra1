@@ -1,0 +1,96 @@
+.top{
+    height: 765px;
+    background-image: url(../images/head-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    &-header{
+        height: 188px;
+        padding: 8px 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px white solid;
+    }
+    &-logo{
+        height: 175px;
+    }
+    &-hotline{
+        height: 75px;
+        width: 445px;
+        background-color: $primary-color;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        & h1{
+            width: 100%;
+        }
+    }
+    &-regis{
+        display: flex;
+        align-items: center;
+        height: 577px;
+        &ter{
+            width: 365px;
+            height: 455px;
+            background-color: #678B37;
+            border: 10px solid #CED086;
+            padding: 30px;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            & h3{
+                width: 100%;
+                margin-top :10px;
+                font-weight: 500;
+                text-align: center;
+                font-size: 30px;
+                line-height: 1.2;
+            }
+            & p{
+                margin-top: 20px;
+                text-align: center;
+                font-style: italic;
+                line-height: 1.2;
+            }
+            &-main{
+                margin-top: 15px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                gap: 10px;
+                & input{
+                    height: 30px;
+                    width: 100%;
+                    background: none;
+                    border: none;
+                    border-top: 1.5px #5F8133 solid;
+                    border-bottom: 1.5px #95AE73 solid;
+                    color: white;
+                    &::placeholder{
+                        color: white;
+                    }
+                }
+            }
+            &-btn{
+                width: 160px;
+                height: 55px;
+                background-color: #C5D301;
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                & a{
+                    display: block;
+                    width: 100%;
+                    text-align: center;
+                    color: white;
+                }
+                &:hover{
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+}
