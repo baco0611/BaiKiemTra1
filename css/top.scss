@@ -81,11 +81,13 @@
                 margin-top: 10px;
                 display: flex;
                 align-items: center;
-                & a{
+                & button{
                     display: block;
                     width: 100%;
                     text-align: center;
                     color: white;
+                    border: none;
+                    background: none;
                 }
                 &:hover{
                     opacity: 0.75;

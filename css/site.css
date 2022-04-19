@@ -144,11 +144,13 @@ body {
   display: flex;
   align-items: center;
 }
-.top-register-btn a {
+.top-register-btn button {
   display: block;
   width: 100%;
   text-align: center;
   color: white;
+  border: none;
+  background: none;
 }
 .top-register-btn:hover {
   opacity: 0.75;
@@ -248,7 +250,7 @@ body {
 .footer-infor input::placeholder {
   color: black;
 }
-.footer-infor a {
+.footer-infor button {
   display: block;
   width: 100%;
   text-align: center;
@@ -256,6 +258,10 @@ body {
   line-height: 35px;
   font-size: 14px;
   background-color: #2A6E01;
+  border: none;
+}
+.footer-infor button:hover {
+  opacity: 0.75;
 }
 
 /*# sourceMappingURL=site.css.map */
